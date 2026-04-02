@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advertisement Page - Group 15</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: #f3e5f5; /* Light purple background */
+            color: #4a148c; /* Dark purple text */
+        }
+        header, nav, footer {
+            background-color: #7b1fa2;
+            color: white;
+        }
+        nav a:hover {
+            background-color: #8e24aa;
+        }
+        .advert-section {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .advert {
+            background-color: #e1bee7;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .logo-container {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 40px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .logo {
+            width: 150px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Group 15 - Advertisement Page</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Index</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="esc.html">ESC Page</a>
+        <a href="advertisement.html">Advertisement</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Advertisements</h2>
+            
+            <div class="advert-section">
+                <div class="advert">
+                    <h3>Summer Internship</h3>
+                    <p>Gain hands-on experience in software engineering. Apply now!</p>
+                </div>
+                <div class="advert">
+                    <h3>Coding Workshop</h3>
+                    <p>Join our 3-day coding intensive. Limited seats available!</p>
+                </div>
+                <div class="advert">
+                    <h3>Tech Conference 2026</h3>
+                    <p>Discover the latest trends in technology and innovation.</p>
+                </div>
+                <div class="advert">
+                    <h3>Networking Event</h3>
+                    <p>Meet industry leaders and expand your professional network.</p>
+                </div>
+                <div class="advert">
+                    <h3>New Gadgets Sale</h3>
+                    <p>Get the latest tech gadgets at unbeatable prices. Shop today!</p>
+                </div>
+                <div class="advert">
+                    <h3>Engineering Webinar</h3>
+                    <p>Learn from top engineers around the world. Register for free!</p>
+                </div>
+            </div>
+
+            <div class="logo-container">
+                <div>
+                    <img src="https://via.placeholder.com/200x200?text=EKSU+LOGO" alt="EKSU Logo" class="logo">
+                    <p style="text-align: center;"><strong>EKSU LOGO</strong></p>
+                </div>
+                <div>
+                    <img src="https://via.placeholder.com/200x200?text=ESC+LOGO" alt="ESC Logo" class="logo">
+                    <p style="text-align: center;"><strong>ESC LOGO</strong></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2026 Group 15 - ESC 311 Web Design Practical
+    </footer>
+
+</body>
+</html>
