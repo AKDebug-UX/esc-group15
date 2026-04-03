@@ -79,6 +79,7 @@ th {
 }
 
 .gallery {
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
@@ -86,6 +87,7 @@ th {
 
 .gallery-item {
     text-align: center;
+    width: 100%;
 }
 
 .gallery-item img {
